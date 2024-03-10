@@ -47,7 +47,7 @@ const DelegateVote = () => {
                                 onChange={handleChange}
                             />
                         </label>
-                        {/*// We have a button that will delegate the vote when clicked*/}
+                        {/*We have a button that will delegate the vote when clicked*/}
                         <Button onClick={handleDelegateClick}>
                             Delegate vote
                         </Button>
