@@ -34,11 +34,11 @@ const DelegateVote = () => {
                 <Box width={"100%"}>
                     <Flex direction="column" gap="3">
                         <label>
-                            // We have a label for the Delegate's address input
+                            {/*// We have a label for the Delegate's address input*/}
                             <Text as="div" size="2" mb="1" weight="bold">
                                 Delegate&apos;s Address
                             </Text>
-                            // Here's the text input field for the Delegate's Address
+                            {/*// Here's the text input field for the Delegate's Address*/}
                             <TextField.Input
                                 placeholder="Enter Delegate's Address"
                                 // The value of the input field is Bonded to our state
